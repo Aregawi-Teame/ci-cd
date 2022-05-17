@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SimpleController {
 	@GetMapping
 	public String hello() {
-		return "Hello World";
+		return "Hello World i'm build in Azure Pipelines!";
 	}
 	
 	@GetMapping("/Hello")
